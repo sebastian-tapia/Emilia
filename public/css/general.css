@@ -1,0 +1,39 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Work Sans', sans-serif;
+ */
+
+ :root{
+    --tipoGrafiaTitulos:'Raleway', sans-serif; 
+    --tipoGrafiaEmilia : 'Work Sans', sans-serif;
+    --tipoGrafiaGeneral: 'Open Sans', sans-serif;
+    --colorVerde :#44a391;
+ }
+
+
+body{
+    font-family:var(--tipoGrafiaGeneral);
+}
+h1{
+    font-family: var(--tipoGrafiaTitulos);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 65px;
+
+}
+
+h3{
+    color: var(--colorVerde);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+ ul li{
+    list-style: none    ;
+}
+
+ul{
+    padding-left: 0;
+}

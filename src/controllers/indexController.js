@@ -1,0 +1,14 @@
+module.exports={
+    index:(req,res)=>{
+        res.render('index')
+    },
+    about:(req,res)=>{
+        res.render('about')
+    },
+    music:(req,res)=>{
+        res.render('music')
+    },
+    contact:(req,res)=>{
+        res.render('contact')
+    }
+}
